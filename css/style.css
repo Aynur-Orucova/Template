@@ -1,0 +1,85 @@
+body{
+  background: wheat;
+}
+
+header {
+  display: flex;
+  margin: 0 0 65px 0;
+}
+.h1{
+  font-size: large;
+}
+.p{
+  font-size: medium;
+}
+.btn {
+  background-color:blue;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+.logo{
+  padding: 35px;
+}
+.flex-container{
+  display: flex;
+  top: 150px;
+}
+.flex-child{
+  flex: 1;
+  top: 150px;
+}
+.flex-child:first-child{
+  margin: 60px 0px 0px 45px;
+}
+.flex-child content{
+  width: 350px;
+  height: 400px;
+  text-align: justify;
+  background: blue;
+}
+.flex-child img{
+  height: 450px;
+  width: 550px;
+  /* background: red; */
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  margin: 35px;
+  padding: 0px;
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed;
+  top: 0;
+  width: 95%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: pink;
+}
+
+/* .active {
+  background-color: #9fc7b8;
+} */
